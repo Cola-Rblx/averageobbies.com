@@ -86,11 +86,11 @@ header .logo:hover{
 }
 
 .game1{
-    background-image: url('images/EscapeSupermarketObbyIcon.png');
+    background-image: url('main/EscapeSupermarketObbyIcon.png');
 }
 
 .game2{
-    background-image: url('images/EscapeMrEShopIcon.png');
+    background-image: url('main/EscapeMrEShopIcon.png');
 }
 
 .game h2{
