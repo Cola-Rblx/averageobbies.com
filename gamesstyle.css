@@ -85,11 +85,11 @@ header .logo:hover{
     border-radius: 25px;
 }
 
-.game1{
+.game-1{
     background-image: url('images/EscapeSupermarketObbyIcon.png');
 }
 
-.game2{
+.game-2{
     background-image: url('images/EscapeMrEShopIcon.png');
 }
 
