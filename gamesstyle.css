@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    border-radius: 25%;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    font-size: 2em;
+    font-weight: 300;
+    text-decoration: none;
+    background: linear-gradient(to right, #d7487e, #ea6360);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: transform 0.5 ease;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a{
+    color: #d7487e;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    background: linear-gradient(to bottom, #d94a7f, #fe9261);
+    padding: 5px 16px;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+header nav a:hover{
+    transform: scale(1.1);
+}
+
+header .logo:hover{
+    transform: rotate(-15deg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 250px;
+    flex-wrap: nowrap;
+}
+
+.game{
+    background:burlywood;
+    border-radius: 25px;
+    width: 220px;
+    padding: 5px;
+}
+
+.game-icon{
+    background-color: transparent;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.game1{
+    background-image: url('images/EscapeSupermarketObbyIcon.png');
+}
+
+.game2{
+    background-image: url('images/EscapeMrEShopIcon.png');
+}
+
+.game h2{
+    font-family: 'Fredoka One', regular;
+    padding: 10px;
+    text-align: center;
+}
+
+.game p{
+    font-family: 'Poppins', regular;
+    padding: 10px;
+    text-align: center;
+}
+
+.game a{
+    background-color: rgb(128, 255, 0);
+    color: rgb(36, 36, 36);
+    border-radius: 500px;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    transition: transform 0.5s, filter 0.5s ease-in-out;
+    filter: brightness(1);
+}
+
+.game a:hover{
+    transform: scale(1.1);
+    filter: brightness(0.85);
+}
