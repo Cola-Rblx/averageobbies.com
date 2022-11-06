@@ -78,17 +78,18 @@ header .logo:hover{
 }
 
 .game-icon{
+    background-color: transparent;
     height: 170px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 25px;
 }
 
-.game-1{
+.game .game-1{
     background-image: url('images/EscapeSupermarketObbyIcon.png');
 }
 
-.game-2{
+.game .game-2{
     background-image: url('images/EscapeMrEShopIcon.png');
 }
 
